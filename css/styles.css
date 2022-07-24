@@ -1,0 +1,213 @@
+body{
+    text-align: center;
+    color: black;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    
+}
+.colored-section{
+    background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+    color: white;
+}
+.white-section{
+    background-color: #E8F3F1;
+    color: black;
+}
+/* Title - Navbar Section */
+#title{
+    padding: 10% 10%;
+    margin-top: 5%;
+    z-index: 3;
+}
+.wrapper{
+    position: relative;
+    z-index: 3;
+}
+.main-nav{
+    background-image: linear-gradient( 134.6deg,  rgba(201,37,107,1) 15.4%, rgba(116,16,124,1) 74.7% );
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    left: 0;
+    
+}
+.navbar-word{
+    padding-inline: 1.125rem;
+}
+.navbar-brand{
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin:0;
+    padding-inline: 1rem;
+}
+.nav-item{
+    font-size: 1rem;
+}
+.navbar-icon{
+    padding-inline: 0.2rem;
+}
+.navbar{
+    margin-bottom:4.5rem;
+}
+/* Title Section */
+.app-phone{
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+    z-index: 0;
+    width: 20%;
+}
+.big-title{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    padding: 1%;
+}
+#title .download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Roadmap Section */
+#roadmap{
+    padding: 7% 15%;
+    position: relative;
+}
+#roadmap img{
+    width: 110%;
+}
+
+
+
+
+
+
+/* Gallery Section */
+#gallery{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+#gallery em{
+    background: -webkit-linear-gradient( 134.6deg,  #c9256b 15.4%, #74107c 74.7% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gallery-text{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.flex-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.gallery-image{
+    border-radius: 10%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin: 1.25rem;
+}
+.carousel-item{
+    padding: 5% 15%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* Team Section */
+#team{
+    padding: 7% 15%;
+    position: relative;
+}
+#team h3{
+    font-weight: 700;
+
+}
+#team i {
+    padding-bottom: 7%;
+}
+.team-box{
+    padding: 3%;
+}
+.team-box img{
+    border-radius: 100%;
+    width: 40%;
+    margin-bottom: 2rem;
+}
+img-team{
+    width: 40%;
+}
+
+
+/* Call to Action Section */
+#cta{
+    text-align: center;
+    padding-top: 3%;
+    position: relative;
+}
+#cta-title{ 
+    font-size: 4rem;
+}
+#cta .download-button{
+    margin: 0 0 5% 0;
+}
+#cta span{
+    background: -webkit-linear-gradient( 134.6deg,  rgba(201,37,107,1) 15.4%, rgba(116,16,124,1) 74.7% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+    font-size: 5rem;
+}
+.qr-code{
+    position: absolute;
+    width: 20%;
+    right:10%;
+    top: 17.5%;
+}
+
+
+/* Contact Section */
+#contacts{
+    color: #818080;
+    padding: 5% 15%;
+}
+#contacts i {
+    padding: 1rem;
+    color: #000;
+}
+#contacts i:hover{
+    background: -webkit-linear-gradient( 134.6deg,  rgba(201,37,107,1) 15.4%, rgba(116,16,124,1) 74.7% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.email-wrapper{
+    margin: 3%;
+}
+
+.email-button:hover{
+    color: white;
+    background: linear-gradient( 134.6deg,  rgba(201,37,107,1) 15.4%, rgba(116,16,124,1) 74.7% );
+}
+
+
+
+@media (max-width:993px){
+    .app-phone{
+        transform: rotate(0deg);
+        position:static;
+        width: 30%;
+    }
+    #title{
+        text-align: center;
+        padding-top: 5%;
+
+    }
+}
